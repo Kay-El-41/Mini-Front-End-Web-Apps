@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F5EDCE;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding-top: 3rem;
+}
+
+.add {
+    background-color: #89C4E1;
+    color: #fff;
+    position: fixed;
+    top: 1rem;
+    right: 1rem;
+    border: none;
+    border-radius: 3px;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+}
+
+.add:hover {
+    background-color: #579BB1;
+}
+
+.add:active {
+    background-color: #205295;
+}
+
+.note {
+    background-color: #fff;
+    box-shadow: 0 10px 4px rgba(0, 0, 0, 0.1);
+    margin: 30px 20px;
+    height: 400px;
+    width: 400px;
+}
+
+.note .tools {
+    background-color: #89C4E1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0.5rem;
+}
+
+.note .tools button {
+    border: none;
+    background-color: transparent;
+    color: #fff;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-left: 0.5rem;
+}
+
+.note .tools button:hover {
+    color: #205295;
+}
+
+.note .tools button:active {
+    color: #579BB1;
+}
+
+.note .main {
+    padding: 0px 20px;
+}
+
+.note textarea {
+    resize: none;
+    font-family: inherit;
+    font-size: 1.2rem;
+    border: none;
+    outline: none;
+    height: 400px;
+    width: 100%;
+    padding: 20px;
+    /* padding so that the text is not closed to the edge of the div*/
+}
+
+.hidden {
+    display: none;
+    /* this will hide what ever is it */
+}
